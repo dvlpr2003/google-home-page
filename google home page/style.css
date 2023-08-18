@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: white;
+  /* justify-content: space-around; */
+  /* align-content: spa; */
+}
+.gmail-container,
+.youtube-container,
+.map-container,
+.translate-container,
+.news-container,
+.python-container {
+  display: flex;
+  min-width: 89px;
+  margin-left: 10px;
+}
+
+#gmail {
+  height: 16px;
+  align-self: center;
+  /* float: left; */
+}
+#youtube {
+  height: 14px;
+  align-self: center;
+}
+#map {
+  height: 17px;
+  align-self: center;
+}
+#translate {
+  height: 18px;
+  align-self: center;
+}
+#news {
+  height: 19px;
+  width: 30px;
+  align-self: center;
+}
+#python {
+  height: 16px;
+  align-self: center;
+}
+.translate-container {
+  margin-left: 10px;
+  /* border: 1px solid blue; */
+}
+.map-container {
+  min-width: 15px;
+}
+.gmail-container {
+  min-width: 50px;
+}
+.news-container {
+  margin-left: 5px;
+  min-width: 30px;
+}
+.translate-container {
+  min-width: 50px;
+}
+.youtube-container img,
+.map-container img,
+.translate-container img,
+.python-container img {
+  margin-right: 5px;
+}
+.section {
+  width: 100%;
+  height: 632px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* .gmail-container:hover,
+.map-container:hover,
+.news-container:hover,
+.translate-container:hover,
+.youtube-container:hover,
+.python-container:hover {
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: rgb(210, 197, 197);
+} */
+.container-2 {
+  /* border: 1px solid rgb(255, 1, 1); */
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.google {
+  /* background-color: wheat; */
+  height: 300px;
+  padding-top: 0px;
+  /* position: relative; */
+}
+#google-logo {
+  height: 400px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* position: absolute; */
+}
+.search-engine {
+  position: relative;
+  margin-top: 0px;
+}
+.search-engine input {
+  outline: none;
+  width: 500px;
+  height: 45px;
+  /* border: 2px solid white; */
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.search-icon {
+  margin-left: 30px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  margin-left: 20px;
+
+  /* z-index: -1; */
+  background-color: white;
+
+  /* display: inline-block; */
+}
+#icon {
+  height: 20px;
+}
+
+#voice {
+  height: 20px;
+}
+#cam {
+  height: 20px;
+}
+.voice-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  left: 450px;
+  top: 10px;
+  right: 30px;
+  gap: 15px;
+}
+.options {
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px;
+  row-gap: 50px;
+  column-gap: 60px;
+  margin-top: 50px;
+}
+.options > div {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 200px;
+}
+.item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item-1 > img {
+  height: 30px;
+  width: 60px;
+  min-width: 0;
+
+  align-self: center;
+}
+
+.item-2 {
+  display: flex;
+  justify-content: center;
+}
+.item-2 > img {
+  height: 30px;
+  align-self: center;
+  border-radius: 10px;
+  /* margin-left: 5px; */
+}
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  display: flex;
+  justify-content: center;
+}
+.item-3 > img,
+.item-4 > img,
+.item-5 > img,
+.item-6 > img {
+  height: 30px;
+  align-self: center;
+}
+.item-5 > img {
+  border-radius: 100px;
+  width: 45px;
+}
+.corner {
+  display: flex;
+  flex-direction: row;
+  /* height: 60px; */
+  gap: 20px;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 60px;
+  right: 70px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.google-apps {
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 3px 3px 3px;
+  grid-template-rows: 3px 3px 3px;
+  row-gap: 3px;
+  column-gap: 3px;
+}
+.google-apps > div {
+  background-color: white;
+  border-radius: 1px;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+.logo > img {
+  border-radius: 20px;
+}
+#text1 {
+  color: white;
+  position: absolute;
+  bottom: 142px;
+  left: 145px;
+}
+#text2 {
+  color: white;
+  position: absolute;
+  bottom: 142px;
+  left: 247px;
+}
+#text3 {
+  color: white;
+  position: absolute;
+  bottom: 142px;
+  left: 370px;
+}
+#text4 {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 137px;
+}
+#text5 {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 258px;
+}
+#text6 {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 365px;
+}
